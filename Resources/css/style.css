@@ -18,6 +18,8 @@ body {
         top: 0;
         width: 100%;
         align-items: center;
+        z-index: 2;
+        background-color: white;
     }
 }
 
@@ -53,7 +55,49 @@ span {
 .container-1 {
     background-color: grey;
     width: 100%;
-    height: 500px;
+    height: 700px;
+    display: inline-flex;
+    justify-content: center;
+}
+.container-1 img {
+    width: 60%;
+    margin-top: 32px;
+    margin-left: 32px;  
+    margin-right: 24px;
+}
+
+.sub-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.banner-button-div {
+    width: 20%;
+    
+}
+
+.banner-button {
+    padding: 8px auto;
+    background-color: red;
+    font-family: Arvo;
+    text-align: center;
+}
+
+.sub-1 h1 {
+    font-family: vollkorn;
+    font-size: 25px;
+    font-weight:500;
+}
+
+.sub-1 h2 {
+    font-family: Arvo;
+}
+
+.container-2 {
+    width: 100%;
+    background-color: rgb(191, 175, 155);
+    height: 300px;
 }
 
 @media only screen and (max-width: 999px)
